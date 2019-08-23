@@ -1,5 +1,5 @@
 -- MySQL
--- Count(*)Where.sql
+-- LearnSQL-Count(*)Where.sql
 -- 对特定条件的数据进行计数
 
 SELECT COUNT(*) AS orders

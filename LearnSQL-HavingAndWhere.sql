@@ -1,5 +1,5 @@
 -- MySQL
--- Having and WHERE.sql
+-- LearnSQL-Having and WHERE.sql
 -- 具有两个以上产品且其价格大于等于4的供应商
 
 SELECT vend_id, COUNT(*) AS num_prods
