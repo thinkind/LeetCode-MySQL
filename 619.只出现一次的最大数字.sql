@@ -7,5 +7,4 @@ SELECT(
     GROUP BY num
     HAVING count(*)=1
     ORDER BY num DESC limit 1   -- 在“只出现一次”的基础上判断最大
-)   
-AS num;
+) AS num;

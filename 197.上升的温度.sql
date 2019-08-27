@@ -2,8 +2,9 @@
 -- 197.上升的温度.sql
 
 SELECT w1.Id
-FROM Weather AS w1 INNER JOIN Weather AS w2 -- w1是当天，w2是昨天
-ON (TIMESTAMPDIFF(DAY, w2.RecordDate, w1.RecordDate) = 1) AND (w1.Temperature > w2.Temperature);    -- w1-w2 = 1 DAY
+    FROM Weather AS w1 INNER JOIN Weather AS w2                     -- w1是当天，w2是昨天
+    ON (TIMESTAMPDIFF(DAY, w2.RecordDate, w1.RecordDate) = 1)       -- w1-w2 = 1 DAY
+        AND (w1.Temperature > w2.Temperature);
 
 
 /*
