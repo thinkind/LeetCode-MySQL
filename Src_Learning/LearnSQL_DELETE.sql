@@ -1,6 +1,6 @@
 -- MySQl
 
-DELETE                      -- DELETE检查是否有WHERE，使用前先用SELECT测试
+DELETE                      --  UPDATE和DELETE都检查：是否有WHERE；
     FROM Customers
     WHERE cust_id = '024';
 
